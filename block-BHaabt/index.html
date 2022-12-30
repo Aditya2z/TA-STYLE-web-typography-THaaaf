@@ -1,0 +1,169 @@
+<!-- writeCode
+
+- Create an insurance website according to the layout shown below.
+
+![Web Typography Assignment level 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/web-typography/ex-2.png)
+
+### Typography
+
+**Heading**
+
+Font Family: [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display?query=dm+se)
+
+**Body**
+
+Font Family: [Karla](https://fonts.google.com/specimen/Karla?query=karla)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+- Work on typography in detail. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tite of the page -->
+    <!-- tite of the page -->
+    <title>Typography-2</title>
+    <!-- linking stylesheet -->
+    <!-- linking stylesheet -->
+    <link rel="stylesheet" href="./assets/stylesheet/style.css">
+    <!-- linking font family -->
+    <!-- linking font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!-- linking font awesome -->
+    <!-- linking font awesome -->
+    <script src="https://kit.fontawesome.com/eec6d21a06.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header of page starts here -->
+    <!-- header of page starts here -->
+    <header>
+        <div class="header container flex">
+            <h3>ProInsure</h3>
+            <nav class="flex top-nav">
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">contact</a>
+                <button class="btn btn-1 flex center">
+                    <a href="#">view plans</a>
+                </button>
+            </nav>
+        </div>
+    </header>
+    <!-- header ends here -->
+    <!-- header ends here -->
+    
+    <!-- main content of page starts here -->
+    <!-- main content of page starts here -->
+    <main>
+
+        <!-- hero section starts here -->
+        <!-- hero section starts here -->
+         <section class="hero">
+            <div class="container flex hero-1">
+                <article class="article-1 flex column">
+                    <h1><q class="q-1">huma</q>nizing <br>your insurance</h1>
+                    <p class="justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet est quos aspernatur, sequi sint, consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laboriosam veritatis delectus quis perferendis esse placeat tempore </p>
+                    <button class="btn btn-2 flex">
+                        <a href="#">view plans</a>
+                    </button>
+                </article>
+                <figure>
+                    <img src="./assets/media/01.png" alt="firecracker with family">
+                </figure>
+            </div>    
+        </section>
+        <!-- hero section ends here -->
+        <!-- hero section ends here -->
+
+        <!-- about section starts here -->
+        <!-- about section starts here -->
+        <section class="about">
+            <div class="container flex">
+                <figure>
+                    <img src="./assets/media/02.png" alt="father carrying two children">
+                </figure>
+                <article class="article-2 flex column">
+                    <h2>About the Insure</h2>
+                    <p class="justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet est quos aspernatur, sequi sint, consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laboriosam veritatis delectus quis perferendis esse placeat tempore </p>
+                    <button class="btn btn-3 flex">
+                        <a href="#">Know more</a>
+                    </button>
+                </article>
+            </div>    
+        </section>
+        <!-- about section ends here -->
+        <!-- about section ends here -->
+
+        <!-- quality section starts here -->
+        <!-- quality section starts here -->
+        <section class="quality container">
+            <section>
+                <h2><q class="q-2">We are d</q>ifferent</h2>
+                <div class="quality-1 flex">
+                    <article class="article-3 flex column">
+                        <div class="circle flex">
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                        <h4>Easy Process</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit porro voluptas nostrum, debitis quo consequat.</p>
+                    </article>
+                    <article class="article-3 flex column">
+                        <div class="circle flex">
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                        <h4>Affordable Prices</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit porro voluptas nostrum, debitis quo consequat.</p>
+                    </article>
+                    <article class="article-3 flex column">
+                        <div class="circle flex">
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                        <h4>You come first</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit porro voluptas nostrum, debitis quo consequat.</p>
+                    </article>
+                </div>
+            </section>
+            <section class="flex more">
+                <h2>Find out more <br> about how we work</h2>
+                <button class="btn btn-4 flex center">
+                    <a href="#">How we work</a>
+                </button>
+            </section>
+            <div class="flex social-1">
+                <h3>ProInsure</h3>
+                <nav class="social">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <i class="fa-brands fa-square-twitter"></i>
+                    </a>
+                </nav>
+            </div>
+            <hr class="hr">
+            <nav class="flex bottom-nav center">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">How we work</a>
+            </nav>
+        </section>
+        <!-- quality section ends here -->
+        <!-- quality section ends here -->
+
+    </main>
+    <!-- main content of page ends here -->
+    <!-- main content of page ends here -->
+    
+    <!-- footer of the page starts here -->
+    <!-- footer of the page starts here -->
+    <footer>
+        <small>&copy;AltCampus Services Pvt Ltd, 2018-present.</small>
+    </footer>
+    <!-- footer of the page ends here -->
+    <!-- footer of the page ends here -->
+</body>
+</html>
